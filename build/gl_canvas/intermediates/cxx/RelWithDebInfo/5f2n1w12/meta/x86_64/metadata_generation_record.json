@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 16 min SDK version: x86_64",
+    "file_": "C:\\Users\\maria\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\gl_canvas-1.0.6\\android\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1312246326
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027C:\\Users\\maria\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\gl_canvas-1.0.6\\android\\.cxx\\RelWithDebInfo\\5f2n1w12\\x86_64\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "C:\\Users\\maria\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\gl_canvas-1.0.6\\android\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 455043444
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\maria\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\gl_canvas-1.0.6\\android\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -312273260
+  }
+]

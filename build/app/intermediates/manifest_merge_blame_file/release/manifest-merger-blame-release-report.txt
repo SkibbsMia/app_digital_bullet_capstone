@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.digital_bullet"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+11-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:39:5-79
+11-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:39:22-76
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-77
+12-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-74
+13    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+13-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-89
+13-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-86
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+14-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-66
+15-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-63
+16    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- for android -->
+16-->[:flutter_local_notifications] C:\Users\maria\Desktop\digital_bullet\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+16-->[:flutter_local_notifications] C:\Users\maria\Desktop\digital_bullet\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+17    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+18    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+19    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+20    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+21    <!-- for Samsung -->
+22    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+22-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+22-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+23    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+23-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+23-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+24    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+24-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+24-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+25    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+25-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+25-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+26    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+26-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+26-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+27    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+27-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+27-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+28    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+28-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+28-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+29    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+29-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+29-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+30    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+30-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+30-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+31    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+31-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+31-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+32    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+32-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+32-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+33    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+33-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+33-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+34    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+34-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+34-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+35    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+36    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+37    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maria\.gradle\caches\transforms-3\05e11dcbaab6933df87e5cd21ec8474a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+38
+39    <application
+40        android:name="android.app.Application"
+40-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:6:9-42
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.8.0] C:\Users\maria\.gradle\caches\transforms-3\270e9501dde0430a83746f97bf9ab544\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:7:9-43
+43        android:label="digital_bullet" >
+43-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:8:9-39
+44        <receiver
+44-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:9:9-11:39
+45            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+45-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:10:13-101
+46            android:exported="true" >
+46-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:11:13-36
+47            <intent-filter>
+47-->[:flutter_local_notifications] C:\Users\maria\Desktop\digital_bullet\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-21:29
+48                <action android:name="android.intent.action.BOOT_COMPLETED" />
+48-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-79
+48-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-76
+49                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+49-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-84
+49-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-81
+50                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+50-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:17-82
+50-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:25-79
+51                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+51-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:17-82
+51-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:25-79
+52            </intent-filter>
+53        </receiver>
+54
+55        <activity
+55-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:12:9-32:20
+56            android:name="com.example.digital_bullet.MainActivity"
+56-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:13:13-41
+57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+57-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:14:13-163
+58            android:exported="true"
+58-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:15:13-36
+59            android:hardwareAccelerated="true"
+59-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:16:13-47
+60            android:launchMode="singleTop"
+60-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:17:13-43
+61            android:theme="@style/LaunchTheme"
+61-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:18:13-47
+62            android:windowSoftInputMode="adjustResize" >
+62-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:19:13-55
+63
+64            <!--
+65                 Specifies an Android theme to apply to this Activity as soon as
+66                 the Android process has started. This theme is visible to the user
+67                 while the Flutter UI initializes. After that, this theme continues
+68                 to determine the Window background behind the Flutter UI.
+69            -->
+70            <meta-data
+70-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:25:13-27:57
+71                android:name="io.flutter.embedding.android.NormalTheme"
+71-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:26:17-72
+72                android:resource="@style/NormalTheme" />
+72-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:27:17-54
+73
+74            <intent-filter android:exported="true" >
+74-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:28:13-31:29
+74-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:28:28-51
+75                <action android:name="android.intent.action.MAIN" />
+75-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:29:17-69
+75-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:29:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:30:17-77
+77-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:30:27-74
+78            </intent-filter>
+79        </activity>
+80        <!--
+81             Don't delete the meta-data below.
+82             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+83        -->
+84        <meta-data
+84-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:35:9-37:33
+85            android:name="flutterEmbedding"
+85-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:36:13-44
+86            android:value="2" />
+86-->C:\Users\maria\Desktop\digital_bullet\android\app\src\main\AndroidManifest.xml:37:13-30
+87
+88        <receiver
+88-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:39
+89            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+89-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-89
+90            android:exported="true" />
+90-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-36
+91        <receiver
+91-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-20:39
+92            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+92-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-92
+93            android:exported="true" />
+93-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-36
+94        <receiver
+94-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-23:39
+95            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+95-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-92
+96            android:exported="true" />
+96-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+97        <receiver
+97-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-38:20
+98            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+98-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-87
+99            android:enabled="true"
+99-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-35
+100            android:exported="true" >
+100-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-36
+101            <intent-filter>
+101-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-37:29
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-76
+102-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:27-73
+103
+104                <action android:name="android.intent.action.BOOT_COMPLETED" />
+104-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-79
+104-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-76
+105                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+105-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-86
+105-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:32:25-83
+106                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+106-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-84
+106-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-81
+107                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+107-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:17-82
+107-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:25-79
+108                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+108-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:17-82
+108-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:25-79
+109                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+109-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:36:17-107
+109-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:36:25-104
+110            </intent-filter>
+111        </receiver>
+112
+113        <service
+113-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:72
+114            android:name="me.carda.awesome_notifications.DartBackgroundService"
+114-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-80
+115            android:exported="false"
+115-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-37
+116            android:permission="android.permission.BIND_JOB_SERVICE" />
+116-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-69
+117        <service
+117-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-49:43
+118            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+118-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-90
+119            android:enabled="true"
+119-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-35
+120            android:exported="false"
+120-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-37
+121            android:foregroundServiceType="phoneCall"
+121-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-54
+122            android:stopWithTask="true" />
+122-->[:awesome_notifications] C:\Users\maria\Desktop\digital_bullet\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-40
+123
+124        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+124-->[:flutter_local_notifications] C:\Users\maria\Desktop\digital_bullet\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-106
+124-->[:flutter_local_notifications] C:\Users\maria\Desktop\digital_bullet\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:14:19-103
+125
+126        <uses-library
+126-->[androidx.window:window:1.0.0-beta04] C:\Users\maria\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+127            android:name="androidx.window.extensions"
+127-->[androidx.window:window:1.0.0-beta04] C:\Users\maria\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+128            android:required="false" />
+128-->[androidx.window:window:1.0.0-beta04] C:\Users\maria\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+129        <uses-library
+129-->[androidx.window:window:1.0.0-beta04] C:\Users\maria\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+130            android:name="androidx.window.sidecar"
+130-->[androidx.window:window:1.0.0-beta04] C:\Users\maria\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+131            android:required="false" />
+131-->[androidx.window:window:1.0.0-beta04] C:\Users\maria\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+132
+133        <provider
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maria\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+134            android:name="androidx.startup.InitializationProvider"
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maria\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+135            android:authorities="com.example.digital_bullet.androidx-startup"
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maria\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+136            android:exported="false" >
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maria\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+137            <meta-data
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maria\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maria\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+139                android:value="androidx.startup" />
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maria\.gradle\caches\transforms-3\f3da131123e9b4eccc244f6ad91f009f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+140            <meta-data
+140-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\maria\.gradle\caches\transforms-3\d207ace530c63d39a791fe758c2906a5\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+141-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\maria\.gradle\caches\transforms-3\d207ace530c63d39a791fe758c2906a5\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:32:17-78
+142                android:value="androidx.startup" />
+142-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\maria\.gradle\caches\transforms-3\d207ace530c63d39a791fe758c2906a5\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:33:17-49
+143        </provider>
+144    </application>
+145
+146</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "75271550560",
+    "firebase_url": "https://digital-bullet-default-rtdb.firebaseio.com",
+    "project_id": "digital-bullet",
+    "storage_bucket": "digital-bullet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75271550560:android:ae835f82464d8e33073505",
+        "android_client_info": {
+          "package_name": "com.example.digital_bullet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75271550560-lec93mk6j0ieqdefeda9ur410ptrt8p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADAMD7NvOitafOr0xKnb52b49SDEsEWv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75271550560-lec93mk6j0ieqdefeda9ur410ptrt8p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

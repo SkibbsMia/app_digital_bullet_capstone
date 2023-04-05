@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "me.carda.awesome_notifications-merged_res-29:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\maria\\.gradle\\caches\\transforms-3\\2cabe7fb2ea79fbc0797d84ccb379c34\\transformed\\media-1.6.0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "347,413,474,540",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "408,469,535,602"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maria\\.gradle\\caches\\transforms-3\\dd7933181bcd1a44ab10530c6cc929bb\\transformed\\appcompat-1.5.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "me.carda.awesome_notifications-mergeReleaseResources-27:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\maria\\.gradle\\caches\\transforms-3\\2cabe7fb2ea79fbc0797d84ccb379c34\\transformed\\media-1.6.0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "347,413,474,540",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "408,469,535,602"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maria\\.gradle\\caches\\transforms-3\\dd7933181bcd1a44ab10530c6cc929bb\\transformed\\appcompat-1.5.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}
